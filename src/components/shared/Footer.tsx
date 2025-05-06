@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <div className="flex items-center mb-4 md:mb-0">
             <Link href="/" className="flex items-center">
-              <span className="text-xl font-bold text-blue-400">Nov</span>
+              <span className="text-xl font-bold text-green-400">Nov</span>
               <span className="text-xl font-bold text-white">ena</span>
             </Link>
           </div>
