@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -20,21 +21,25 @@ export default function HeroSection() {
               and streamline your clinic operations with ease and security.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-green-600 hover:bg-green-700">
-                Make Appointment
-              </Button>
-              <Button
-                variant="outline"
-                className="border-green-600 text-green-600 hover:bg-green-50"
-              >
-                Contact Us
-              </Button>
+              <Link href="/doctors">
+                <Button className="bg-green-600 hover:bg-green-700">
+                  Make Appointment
+                </Button>
+              </Link>
+              <Link href="/contact">
+                <Button
+                  variant="outline"
+                  className="border-green-600 text-green-600 hover:bg-green-50"
+                >
+                  Contact Us
+                </Button>
+              </Link>
             </div>
           </div>
 
           {/* Animation */}
           <div className="relative w-full md:w-1/2 h-[300px] sm:h-[400px] md:h-[480px] flex justify-center">
-            <div className="absolute w-[320px] h-[320px] sm:w-[400px] sm:h-[400px] md:w-[480px] md:h-[480px] rounded-full bg-gray-100 overflow-hidden">
+            <div className="absolute w-[320px] h-[320px] sm:w-[400px] sm:h-[400px] md:w-[480px] md:h-[480px] rounded-full bg-green-100 overflow-hidden">
               <DotLottieReact
                 className="h-full w-full"
                 src="https://lottie.host/0fc3a300-0252-4f5c-9fbf-9f2031b1b9e5/HAVscCxv14.lottie"

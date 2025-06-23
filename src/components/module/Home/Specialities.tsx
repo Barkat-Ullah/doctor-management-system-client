@@ -7,6 +7,7 @@ import {
   SmileIcon as Tooth,
   Eye,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function SpecialtiesSection() {
   const specialties = [
@@ -19,7 +20,7 @@ export default function SpecialtiesSection() {
   ];
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-green-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">
@@ -48,12 +49,14 @@ export default function SpecialtiesSection() {
         </div>
 
         <div className="mt-8 text-center">
-          <Button
-            variant="outline"
-            className="border-green-600 text-green-600 hover:bg-green-50"
-          >
-            View All
-          </Button>
+          <Link href="/doctors">
+            <Button
+              variant="outline"
+              className="border-green-600 text-green-600 hover:bg-green-50"
+            >
+              View All
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
