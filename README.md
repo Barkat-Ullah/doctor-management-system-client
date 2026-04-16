@@ -258,17 +258,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **SSL Commerce** - For secure payment processing
 - **Vercel** - For seamless deployment platform
 
-## 📞 Support
-
-For support and queries:
-- 📧 Email: support@novena-healthcare.com
-
 ---
 
 <div align="center">
   <p>Built with ❤️ for better healthcare management</p>
   <p>© 2024 Novena Doctor Management System</p>
 </div>
+
 ```
 
 This README provides a comprehensive overview of your doctor management application with:
